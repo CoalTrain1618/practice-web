@@ -1,0 +1,28 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    
+}
+
+/* header */
+header {
+    background-color: blue;
+}
+
+/* main */
+main {
+    background-color: lightblue;
+}
+
+
+/* footer */
+footer {
+    background-color: salmon;
+    
+}
