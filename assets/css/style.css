@@ -37,6 +37,11 @@ main {
     flex: 1 0 auto;
 }
 
+.hero-container {
+    background-color: darkolivegreen;
+    padding-bottom: 5px;
+}
+
 
 /* footer */
 footer {
