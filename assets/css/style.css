@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Global */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* body */
@@ -15,31 +18,41 @@ body {
 
 /* header */
 header {
-    background-color: blue;
-}
-
-.navbar {
+    background-color: lightgray;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 8px 10%;
 }
 
-#menu {
-    display: flex;
-    list-style-type: none;
-    gap: 5px;
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    cursor: pointer;
 }
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
 
 
 /* main */
 main {
-    background-color: lightblue;
+    background-color: whitesmoke;
     flex: 1 0 auto;
 }
 
 .hero-container {
-    background-color: darkolivegreen;
+    background-color: #222e50;
     padding-bottom: 5px;
+    color: whitesmoke;
 }
 
 
